@@ -1,0 +1,12 @@
+@import "../helper/variable.scss";
+
+input [type=text], textarea
+{
+	border:1px solid $dark-orange;
+}
+
+input [type=submit]
+{
+	background-color:$dark-orange;
+}
+

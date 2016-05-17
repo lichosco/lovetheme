@@ -1,0 +1,25 @@
+
+@import "../helper/variable.scss";
+
+.tittle_page
+{
+	background-color:$dark-orange;
+	height:50px;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	width:640px;
+
+}
+.orange
+{
+	
+	background-color:$light-orange;
+	height:50px;
+
+	
+}
+.header_bottom_area
+{
+	margin-top:-80px;
+}

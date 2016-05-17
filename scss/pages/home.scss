@@ -1,0 +1,82 @@
+@import "../helper/variable.scss";
+
+/*header*/
+
+.header_area
+{
+	height:200px;
+}
+
+.mainmenu 
+{
+	float:right;
+	margin-top:-75px;
+}
+.blog
+{
+	color:$light-orange;
+	font-weight:bold;
+}
+
+.mainmenu ul li 
+{
+	display:inline;
+	margin-right:10px;
+	padding:5px 10px;
+	font-size:20px;
+	color:$gray;
+	font-weight:bold;
+}
+
+#nav a 
+{
+	color:$gray;
+}
+
+.active 
+{
+	color:$dark-orange;
+}
+
+.love
+{
+	color:$dark-orange;
+	font-weight:bold;
+}
+
+
+.img 
+{
+	width:100%;
+}
+
+.single_service
+{
+	width:105%;
+	height:550px;
+	margin-top:40px;
+	& h2
+	{
+		font-size:23px;
+		color:$dark-orange;
+		font-weight:bold;
+		display:inline;
+
+	}
+	& .icon
+	{
+		display:inline;
+		margin-top:10px;
+	}
+	& a 
+	{
+		background-color: $dark-orange;
+		padding:5px 15px;
+		color:white;
+	}
+}
+
+.from_blog
+{
+	margin-top:-500px;
+}

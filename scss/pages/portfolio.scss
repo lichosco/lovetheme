@@ -1,0 +1,36 @@
+
+@import "../helper/variable.scss";
+
+h3
+{
+	display:inline;
+}
+.nav li 
+{
+	display:inline;
+	padding-right:20px;
+}
+.nav 
+{
+	margin-left:200px;
+	margin-top:-30px;
+}
+
+.nav a 
+{
+	color:$gray;
+	font-weight:bold;
+}
+
+.nav .active
+{
+	background-color:$dark-orange;
+	padding:5px 20px;
+	color:white;
+}
+
+.movie
+{
+	
+
+}

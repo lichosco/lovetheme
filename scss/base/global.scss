@@ -1,0 +1,9 @@
+@import "../helper/variable.scss";
+.photo
+{
+	width:50px;
+	height:50px;
+	background-color:$light-orange;
+	display:inline-block;
+	border:2px solid #F1843B;
+}
